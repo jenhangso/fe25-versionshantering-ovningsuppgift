@@ -6,4 +6,12 @@ Anwer
 Isabelle
 Mark
 
+Kriterier:
+1. Mobilversion & desktop version
+2. Ha minst 4 flikar som funkar, home,  [ funktion ]   , contact , about us  
+3. Välja tema: väder station, valutaväxel sida , nyhetssida.
+amount of content  som :https://www.aftonbladet.se/
+4. Grafisk profil. & mockup eller skiss.
+5. Dokumentation på github, readme, wiki etc
+6. Kanban
 
