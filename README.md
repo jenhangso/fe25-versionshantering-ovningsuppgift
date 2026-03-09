@@ -1,10 +1,19 @@
-Jenny - gruppledare | api-nyckel: jeP663K4f4WDycucHS1NwZQiuASc2442GEuhqQEG
-Mohsen
-Daniel
-Emma - ux design
-Anwer
-Isabelle
-Mark
+- Jenny - gruppledare | api-nyckel: jeP663K4f4WDycucHS1NwZQiuASc2442GEuhqQEG
+- Mohsen
+- Daniel
+- Emma - ux design, mockup, wireframe / skiss
+- Anwer
+- Isabelle
+- Mark
+
+Grupp roller:
+- 1 ledare som hanterar(ansvarar) merge conflicts
+- ca 2 html markup 
+- ca 2 js scriptare
+- ca 2 css design (mobil & desktop)
+- UX, mockup, wireframe
+
+API: https://api.nasa.gov/
 
 Kriterier:
 1. Mobilversion & desktop version
