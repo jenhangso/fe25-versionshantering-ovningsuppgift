@@ -1,8 +1,8 @@
 - Jenny - gruppledare | api-nyckel: jeP663K4f4WDycucHS1NwZQiuASc2442GEuhqQEG
-- Mohsen
+- Mohsen - kontakt sidan 
 - Daniel
-- Emma - ux design, mockup, wireframe / skiss
-- Anwer
+- Emma - ux design, mockup, wireframe / skiss, css färg/font
+- Anwer - om oss sidan 
 - Isabelle
 - Mark
 
