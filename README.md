@@ -58,3 +58,15 @@ Lämna in github länken.
 github pages för VG, skicka in länken också. alla gruppmedlem länkar i classroom.
 Rapport hela gruppen 1 sida eller individuellt ca 200 ord.
 eventulla skisser/bilder/mockup  , skriv en privat meddelande om ni har lagt bilderna i repot istället.
+
+## SKISSER
+
+![Home page_skiss](https://github.com/user-attachments/assets/7d48a555-672c-4532-83b2-61aa317904b6)
+
+![About page_skiss](https://github.com/user-attachments/assets/26a0e7ad-e79c-4205-9174-b121281a21de)
+
+![Solar System_skiss](https://github.com/user-attachments/assets/c7affdf8-8b8b-4cee-ab4e-1ca65c2cbcd4)
+
+![Contact page_skiss](https://github.com/user-attachments/assets/487414d6-2d3c-402d-a78a-ebee7fa20adf)
+
+![Mobile version_skiss](https://github.com/user-attachments/assets/707a058a-08df-428b-af24-e890a44dc8fc)
