@@ -29,9 +29,9 @@ G kriterier:
 - [x] Ha Läraren som collaborator för repository (Timearchitect).
 - [x] Skisser för hemsidan. (paper,photon) ska finnas på github repot också
 - [] Mobilversion & desktopversion (responsive design, mobile first)
-- [] Ha minst 4 flikar som funkar t.ex:, home,  [ api relaterad flik/ relevant ]   , contact , about us  
-- [] Välj ett tema som t.ex: väder station, valutaväxel sida , nyhetssida.
-- [] Hur mycket innehåll är rimlig på en sidan?  ( Exempel: 2 artiklar  https://www.aftonbladet.se/)
+- [] Ha minst 4 flikar som funkar t.ex:, home, [ api relaterad flik/relevant ], contact, about us  
+- [x] Välj ett tema som t.ex: väder station, valutaväxel sida , nyhetssida.
+- [] Hur mycket innehåll är rimlig på en sidan
 - [] Simpel grafisk profil & mockup (lägg i readme.md eller i github wikin).
 - [] Dokumentation på github readme (gör ni VG ska ni ändå har dokumentation i readme som är mer generell),
 - [] Ha synligt kontribuerade till kodbasen (i github insights)
@@ -43,21 +43,29 @@ G kriterier:
 VG kriterier:
 - [] Wiki alla ska delta i sitt område, väl dokumenterad ( t.ex js har ni funktioner som gör saker så ska - [] det dokumenteras ).
 - [] webbsidan ska ha länkar till sociala medier, passande element & vara väldesignat.(argument för det dokumenterat) hostat på github pages.
-css animationer
-grundläggande SEO (taggar så det ökar chansen på att en sökmotor rakar den högt)
-Bilder med alt, <picture> tag i olika upplösningar.
-ha en dark/light mode & vältänkt design choices som ska vara dokumenterade
-(t.ex vi har SKRIKANDE blå gul färg för att det invokar svenskhet men
-också minimalistisk IKEA estetik som många förknippar med sverige därför
-är de gul blåa färgschemat reservat ).
-Ha minst 2 features/funktioner med api ( kallar på olika endpoints t.ex Flickr med olika storlekar eller sökfunktion)
-Hamburgarmeny.
+- [] css animationer
+- [] grundläggande SEO (taggar så det ökar chansen på att en sökmotor rakar den högt)
+- [] Bilder med alt, <picture> tag i olika upplösningar.
+- [] Dark/light mode
+- [] Vältänkt design choices som ska vara dokumenterade
+- [] Ha minst 2 features/funktioner med api ( kallar på olika endpoints t.ex Flickr med olika storlekar eller sökfunktion)
+- [] Hamburgarmeny.
+
 Inlämningen:
-Repository namnkonventioner är valfritt.
-Lämna in github länken.
-github pages för VG, skicka in länken också. alla gruppmedlem länkar i classroom.
-Rapport hela gruppen 1 sida eller individuellt ca 200 ord.
-eventulla skisser/bilder/mockup  , skriv en privat meddelande om ni har lagt bilderna i repot istället.
+- [] Repository namnkonventioner är valfritt.
+- [] Lämna in github länken.
+- [] github pages för VG, skicka in länken också. alla gruppmedlem länkar i classroom.
+- [] Rapport hela gruppen 1 sida eller individuellt ca 200 ord.
+- [] eventulla skisser/bilder/mockup  , skriv en privat meddelande om ni har lagt bilderna i repot istället.
+
+## DOKUMENTERING | läggs upp i wikin innan inlämning
+Vårt tema är en webbsida som ger användaren kunskap om rymden.
+### JS Funktioner
+
+### Endpoints
+
+### Motivering av färgval
+
 
 ## SKISSER
 
@@ -75,6 +83,11 @@ eventulla skisser/bilder/mockup  , skriv en privat meddelande om ni har lagt bil
 
 
 ## SCOURCES
+
+### Social Media Icons
 <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons created by Hight Quality Icons - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Hight Quality Icons - Flaticon</a>
+
+### ICON menu
+<a href="https://www.flaticon.com/free-icons/space" title="space icons">Space icons created by Freepik - Flaticon</a>
