@@ -7,7 +7,7 @@
 - Mark
 
 Grupp roller:
-- 1 ledare som hanterar(ansvarar) merge conflicts
+- 1 ledare som hanterar (ansvarar) merge conflicts
 - ca 2 html markup 
 - ca 2 js scriptare
 - ca 2 css design (mobil & desktop)
