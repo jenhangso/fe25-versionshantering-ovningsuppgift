@@ -12,6 +12,8 @@ footer {
     border-top: 4px solid azure;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
 }
 
 .socials-icon {
@@ -40,3 +42,9 @@ footer {
 
 
 /* ABOUT US PAGE */
+
+
+/* <--------- BREAKTPOINT 768px ---------> */
+@media (min-width: 768px) {
+    
+}

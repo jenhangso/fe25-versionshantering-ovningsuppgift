@@ -27,7 +27,7 @@ amount of content  som :https://www.aftonbladet.se/
 ## KRAV
 G kriterier:
 - [x] Ha Läraren som collaborator för repository (Timearchitect).
-- [] Skisser för hemsidan. (paper,photon) ska finnas på github repot också
+- [x] Skisser för hemsidan. (paper,photon) ska finnas på github repot också
 - [] Mobilversion & desktopversion (responsive design, mobile first)
 - [] Ha minst 4 flikar som funkar t.ex:, home,  [ api relaterad flik/ relevant ]   , contact , about us  
 - [] Välj ett tema som t.ex: väder station, valutaväxel sida , nyhetssida.
