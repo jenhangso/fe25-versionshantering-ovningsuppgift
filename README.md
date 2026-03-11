@@ -88,6 +88,3 @@ Vårt tema är en webbsida som ger användaren kunskap om rymden.
 <a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Pixel perfect - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/instagram-logo" title="instagram logo icons">Instagram logo icons created by Hight Quality Icons - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/facebook" title="facebook icons">Facebook icons created by Hight Quality Icons - Flaticon</a>
-
-### ICON menu
-<a href="https://www.flaticon.com/free-icons/space" title="space icons">Space icons created by Freepik - Flaticon</a>

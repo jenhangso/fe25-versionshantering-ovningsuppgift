@@ -20,11 +20,15 @@ footer {
     font-size: 0.6rem;
     text-align: center;
     padding: 0.8rem;
-    border-top: 4px solid azure;
+    border-top: 4px solid rgb(0, 0, 0);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 .socials-icon {
@@ -76,6 +80,22 @@ footer {
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
+
+    nav {
+        padding: 0.2rem;
+    }
+
+    footer {
+        color: azure;
+        font-size: 1rem;
+        border-top: 8px solid rgb(0, 0, 0);
+    }
+
+    .socials-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+
     .dropdown-menu-btn {
         display: none;
     }
