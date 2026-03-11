@@ -1,0 +1,7 @@
+@media screen and (min-width: 480px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+  }
+}
