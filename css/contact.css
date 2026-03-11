@@ -75,8 +75,3 @@ button {
 button:hover {
   opacity: 0.9;
 }
-
-/* <--------- BREAKTPOINT 768px ---------> */
-@media (min-width: 768px) {
-    
-}
