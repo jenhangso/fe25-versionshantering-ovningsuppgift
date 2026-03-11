@@ -1,9 +1,18 @@
 .hero {
     width: 100%;
     height: 30rem;
-    background-color: blanchedalmond;
+    background-color: var(--wormhole);
 }
 
 .hero-title {
     
+}
+
+/* <--------- BREAKTPOINT 768px ---------> */
+@media (min-width: 768px) {
+    .hero {
+        width: 100%;
+        height: 30rem;
+        background-color: var(--wormhole);
+    }
 }
