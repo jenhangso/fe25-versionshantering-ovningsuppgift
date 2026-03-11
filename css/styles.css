@@ -26,11 +26,12 @@
 }
 
 :root {
-    --midnight-deep: #ace8de;
-    --electric-cyan: #ace8de;
-    --golden-amber: #ffb400;
-    --neon-teal: #00a896;
-    --slate-gray: #1c2541;
+    --space: #FFFFFF;
+    --light-blue: #ACE8DE;
+    --green: #1B451D;
+    --dark-blue: #061733;
+    --blue: #2D5D85;
+    --wormhole: #061309;
 }
 
 body {
@@ -50,7 +51,7 @@ nav {
 }
 
 footer {
-    background-color: rgb(109, 156, 255);
+    background-color: var(--blue);
     color: azure;
     font-size: 0.6rem;
     text-align: center;
@@ -64,6 +65,7 @@ footer {
 
 a {
     text-decoration: none;
+    color: #1c2541;
 }
 
 .socials-icon {
@@ -133,6 +135,12 @@ a {
     .socials-icon {
         width: 2rem;
         height: 2rem;
+        transition: transform 0.3s ease;
+    }
+
+    .socials-icon:hover {
+        transform: scale(1.2);
+        color: #6060a5;
     }
 
     .dropdown-menu-btn {
@@ -151,14 +159,5 @@ a {
         margin-left: 20px;
     }
 
-    /* hover effect on desktop
-.socials-icon {
-    width: 1rem;
-    height: 1rem;
-    transition: transform 0.3s ease;
-}
 
-.socials-icon img:hover {
-    transform: scale(1.5);
-} */
 }
