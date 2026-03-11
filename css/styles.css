@@ -1,4 +1,12 @@
 /* GENEREL STYLING */
+:root {
+    --midnight-deep: #ace8de;
+    --electric-cyan: #ace8de;
+    --golden-amber: #ffb400;
+    --neon-teal: #00a896;
+    --slate-gray: #1c2541;
+}
+
 body {
     margin: 0;
 }
@@ -29,16 +37,6 @@ footer {
 
 a {
     text-decoration: none;
-}
-
-.hero {
-    width: 100%;
-    height: 30rem;
-    background-color: blanchedalmond;
-}
-
-.hero-title {
-    
 }
 
 .socials-icon {
