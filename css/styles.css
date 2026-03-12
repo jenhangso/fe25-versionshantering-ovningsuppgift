@@ -6,19 +6,16 @@
   font-weight: 400;
   font-style: normal;
 }
-
 .space-mono-bold {
   font-family: "Space Mono", monospace;
   font-weight: 700;
   font-style: normal;
 }
-
 .space-mono-regular-italic {
   font-family: "Space Mono", monospace;
   font-weight: 400;
   font-style: italic;
 }
-
 .space-mono-bold-italic {
   font-family: "Space Mono", monospace;
   font-weight: 700;
@@ -26,28 +23,49 @@
 } */
 
 :root {
-    --space: #FFFFFF;
+    --white: #FFFFFF;
     --light-blue: #ACE8DE;
     --green: #1B451D;
     --dark-blue: #061733;
     --blue: #2D5D85;
-    --wormhole: #061309;
+    --dark-green: #061309;
 }
 
 body {
     margin: 0;
     font-family: 'Space Mono', monospace;
+    color: var(--white);
+    background-image: url('../img/space.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.595);
 }
 
 header {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding: 0.5rem;
     position: relative;
+    background-color: #061733c6;
+    border-bottom: 2px solid gray;
 }
 
 nav {
     padding: 0.2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.page-title {
+    font-size: 1rem;
 }
 
 footer {
@@ -77,7 +95,8 @@ a {
     display: none;
     flex-direction: column;
     width: 50%;
-    background-color: #6060a5;
+    background-color: var(--light-blue);
+    border: 1px solid var(--blue);
     position: absolute;
 }
 
@@ -87,19 +106,15 @@ a {
 
 .dropdown-menu-btn {
     cursor: pointer;
-    background-color: white;
+    background-color: var(--white);
     display: flex;
     justify-content: center; 
     align-items: center;
     border-radius: 100px;
     font-size: 1rem;
     border: none;
-}
-
-.menu-btn-img {
-    width: 2rem;
-    height: 2rem;
-    cursor: pointer;
+    width: 1rem;
+    height: 1rem;
 }
 
 /* <--------- BREAKTPOINT 768px ---------> */
