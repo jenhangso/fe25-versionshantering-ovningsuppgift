@@ -10,9 +10,8 @@
 </head>
 <body>
     <header>
-            <h1 class="page-title">COSMIC FEED</h1>
         <nav>
-            <button class="dropdown-menu-btn" id="mobile-menu" ></button>
+            <button class="dropdown-menu-btn" id="mobile-menu" >☰</button>
 
             <div class="link-container" id="nav-links">
                 <a href="index.html">Home</a>
@@ -20,18 +19,20 @@
                 <a href="./html/about.html">About</a>
                 <a href="./html/contact.html">Contact</a>
             </div>
+
+            <h1 class="page-title">COSMIC FEED</h1>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <h2 class="hero-title">Astronomy of the day</h2>
-            <img src="" alt="">
+            <h2 class="hero-title">ASTRONOMY OF THE DAY</h2>
+            <article id="apod-display"></article>
         </section>
 
-        <section class="facts-container">
-            <h3>Facts about space</h3>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+        <section class="apod-info-container">
+            <h3 id="apod-title">Picture Title</h3>
+            <p id="apod-explanation">Explanation of the image</p>
         </section>
     </main>
 

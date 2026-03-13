@@ -3,10 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/planets.css">
+    <script src="../js/planets.js" type="module"></script>
     <title>Planets</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <button class="dropdown-menu-btn" id="mobile-menu" >☰</button>
+
+            <div class="link-container" id="nav-links">
+                <a href="index.html">Home</a>
+                <a href="./html/planets.html">Planets</a>
+                <a href="./html/about.html">About</a>
+                <a href="./html/contact.html">Contact</a>
+            </div>
+
+            <h1 class="page-title">SOLAR SYSTEM</h1>
+        </nav>
+    </header>
+
+    <main class="planets-list">
+        <button class="planet-btn" data-planet="mars">
+            <img class="planet-img" src="../img/planets/mercury.png" alt="Picture of Mercury">
+            <span>Mercury</span>
+        </button>
+
+        <button class="planet-btn" data-planet="mars">
+            <img class="planet-img" src="../img/planets/venus.png" alt="Picture of Venus">
+            <span>Venus</span>
+        </button>
+        
+        <button class="planet-btn" data-planet="mars">
+            <img class="planet-img" src="../img/planets/earth.png" alt="Picture of Earth">
+            <span>Earth</span>
+        </button>
+
+        <button class="planet-btn" data-planet="mars">
+            <img class="planet-img" src="../img/planets/mars.png" alt="Picture of Mars">
+            <span>Mars</span>
+        </button>
+
+        <button class="planet-btn" data-planet="mars">
+            <img class="planet-img" src="../img/planets/jupiter.png" alt="Picture of Venus">
+            <span>Jupiter</span>
+        </button>
+
+        <button class="planet-btn" data-planet="mars">
+            <img class="planet-img" src="../img/planets/saturn.png" alt="Picture of Saturn">
+            <span>Saturn</span>
+        </button>
+
+        <button class="planet-btn" data-planet="mars">
+            <img class="planet-img" src="../img/planets/uranus.png" alt="Picture of Uranus">
+            <span>Uranus</span>
+        </button>
+
+        <button class="planet-btn" data-planet="mars">
+            <img class="planet-img" src="../img/planets/neptune.png" alt="Picture of Neptune">
+            <span>Neptune</span>
+        </button>
+    </main>
+
+    <section id="planet-info" class="info-container hidden">
+        <button class="close-btn">&times;</button>
+        <article class="info-box">
+            <div class="content">
+                <h2>Planet Name</h2>
+                <p>Planet Description</p>
+            </div>
+        </article>
+    </section>
+
+    <footer>
+        <div class="socialsBox">
+            <p>Social Media</p>
+            <a href="www.facebook.com"><img class="socials-icon" src="./img/facebook.png" alt="Facebook Icon"></a>
+            <a href="instagram.com"><img class="socials-icon" src="./img/instagram.png" alt="Instagram Icon"></a>
+            <a href="github.com"><img class="socials-icon" src="./img/github.png" alt="Facebook Icon"></a>
+            <a href="./html/contact.html">Contact Us</a>
+        </div>
+        
+        <p>&copy; copyrights 2026, credits Gitronauts</p>
+
+        <div>
+            <p>API Source</p>
+            <a href="https://api.nasa.gov">Nasa APIS</a>
+            <a href="https://api-ninjas.com">API Ninjas</a>
+        </div>
+    </footer>
 </body>
 </html>
