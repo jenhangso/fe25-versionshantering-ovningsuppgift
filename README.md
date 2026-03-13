@@ -1,19 +1,16 @@
-- Jenny - gruppledare | api-nyckel: jeP663K4f4WDycucHS1NwZQiuASc2442GEuhqQEG
-- Mohsen - kontakt sidan 
-- Daniel
-- Emma - ux design, mockup, wireframe / skiss, css färg/font
-- Anwer - om oss sidan 
-- Isabelle
-- Mark
+# Gruppuppgift | Cosmic Feed
 
-Grupp roller:
-- 1 ledare som hanterar (ansvarar) merge conflicts
-- ca 2 html markup 
-- ca 2 js scriptare
-- ca 2 css design (mobil & desktop)
-- UX, mockup, wireframe
+## Gruppmedlemmar
+- Jenny - gruppledare, html & css
+- Mohsen - html
+- Emma - ux design, mockup, wireframe/skiss & css
+- Anwer - html
+- Isabelle - js
+- Mark - js 
 
-API: https://api.nasa.gov/
+## API 
+https://api.nasa.gov/ | api-nyckel: jeP663K4f4WDycucHS1NwZQiuASc2442GEuhqQEG
+https://api.le-systeme-solaire.net/en/ | api-nyckel: 6b5685f0-8df2-4b3f-8d95-4bf353d5a99b
 
 Kriterier:
 1. Mobilversion & desktop version
