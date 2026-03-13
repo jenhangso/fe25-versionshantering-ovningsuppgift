@@ -1,0 +1,77 @@
+/* body {
+  display: flex;
+  flex-direction: column;
+  background: #050505;
+  color: white;
+  margin: 0;
+  min-height: 100vh;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+span {
+    color: white;
+}
+
+.planets-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 0;
+}
+
+.planet-btn {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 15rem;
+    border: 2px solid var(--light-blue);
+}
+
+.planet-img {
+    width: 10rem;
+}
+
+.info-container {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(30, 30, 30, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 2rem 2rem 0 0;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.info-container.active {
+  transform: translateY(0);
+}
+
+
+/* <--------- BREAKTPOINT 768px ---------> */
+@media (min-width: 768px) {
+  .planets-list {
+    flex-direction: row;    
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .info-container {
+    width: 25rem;
+    height: 80vh;
+    right: 2rem;
+    top: 10vh;
+    border-radius: 1.5rem;
+    transform: translateX(120%);
+  }
+
+  .info-container.active {
+    transform: translateX(0);
+  }
+}

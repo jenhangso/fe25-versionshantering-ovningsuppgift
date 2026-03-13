@@ -6,8 +6,8 @@
 }
 
 .hero-title {
-    position: absolute;       
-    bottom: 1rem;           
+    position: absolute;  
+    top: 15rem;               
     left: 1rem;            
     margin: 0;             
     font-size: 0.5rem;
@@ -16,16 +16,4 @@
 .facts-container {
     padding: 1rem;
     font-size: 0.5rem;
-}
-
-/* <--------- BREAKTPOINT 768px ---------> */
-@media (min-width: 768px) {
-    .hero {
-        width: 100%;
-        height: 30rem;
-        background-color: #061733bb;
-        border-radius: 20px;
-        border: 2px solid var(--light-blue);
-        margin: 2rem;
-    }
-}
+    width: 1

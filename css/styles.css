@@ -54,7 +54,7 @@ header {
     justify-content: space-between;
     padding: 0.5rem;
     position: relative;
-    background-color: #061733c6;
+    background-color: rgba(0, 0, 0, 0.595);
     border-bottom: 2px solid gray;
 }
 
@@ -116,6 +116,8 @@ a {
     width: 1rem;
     height: 1rem;
 }
+
+
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
