@@ -1,5 +1,6 @@
 .hero {
     width: 100%;
+<<<<<<< Updated upstream
     height: 12rem;
     border-bottom: 2px solid var(--light-blue);
     margin: 0;
@@ -29,4 +30,12 @@
         border: 2px solid var(--light-blue);
         margin: 2rem;
     }
+=======
+    height: 30rem;
+    background-color: blanchedalmond;
+}
+
+.hero-title {
+    
+>>>>>>> Stashed changes
 }
