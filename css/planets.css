@@ -8,70 +8,153 @@
 } */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
 }
 
 span {
+    color: #ACE8DE;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+}
+
+.wrap {
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.outer {
+    position: relative;
+    overflow: hidden;
+}
+
+.track {
+    display: flex;
+    gap: 16px;
+    transition: transform 0.6s cubic-bezier(.4,0,.2,1);
+    padding: 0 50px;
+}
+
+.card {
+    min-width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 10px;
+    border-radius: 12px;
+    border: 1px solid rgba(172,232,222,0.2);
+    background: rgba(172,232,222,0.05);
+    cursor: pointer;
+    transition: transform 0.3s, border-color 0.3s, background 0.3s;
+}
+
+.card:hover, .card.active {
+    transform: translateY(-10px) scale(1.05);
+    border-color: #ACE8DE;
+    background: rgba(172,232,222,0.15);
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: rgba(172,232,222,0.15);
+    border: 1px solid rgba(172,232,222,0.4);
+    color: #ACE8DE;
+    font-size: 1.3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: background 0.2s;
+}
+
+.btn:hover { background: rgba(172,232,222,0.35); }
+.btn.p { left: 8px; }
+.btn.n { right: 8px; }
+
+.dots {
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    margin-top: 1rem;
+}
+
+.dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(172,232,222,0.25);
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.dot.active { background: #ACE8DE; }
+
+.info-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(10,10,30,0.97);
+    backdrop-filter: blur(10px);
+    border-radius: 2rem 2rem 0 0;
+    transform: translateY(100%);
+    transition: transform 0.4s ease;
+    z-index: 100;
+    padding: 2rem;
     color: white;
 }
 
-.planets-list {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3rem;
-  padding: 2rem 0;
-}
+.info-container.active { transform: translateY(0); }
 
-.planet-btn {
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
     background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.outer {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.track {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 15rem;
-    border: 2px solid var(--light-blue);
+    gap: 16px;
+    transition: transform 0.6s cubic-bezier(.4,0,.2,1);
 }
 
-.planet-img {
-    width: 10rem;
-}
-
-.info-container {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: rgba(30, 30, 30, 0.95);
-  backdrop-filter: blur(10px);
-  border-radius: 2rem 2rem 0 0;
-  transform: translateY(100%);
-  transition: transform 0.4s ease;
-}
-
-.info-container.active {
-  transform: translateY(0);
-}
-
-
-/* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
-  .planets-list {
-    flex-direction: row;    
-    justify-content: center;
-    height: 100vh;
-  }
+    .info-container {
+        width: 25rem;
+        height: 80vh;
+        right: 2rem;
+        top: 10vh;
+        bottom: auto;
+        border-radius: 1.5rem;
+        transform: translateX(120%);
+    }
 
-  .info-container {
-    width: 25rem;
-    height: 80vh;
-    right: 2rem;
-    top: 10vh;
-    border-radius: 1.5rem;
-    transform: translateX(120%);
-  }
-
-  .info-container.active {
-    transform: translateX(0);
-  }
+    .info-container.active { transform: translateX(0); }
 }
