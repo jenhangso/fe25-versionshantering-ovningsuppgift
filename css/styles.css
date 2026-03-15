@@ -32,7 +32,9 @@
 }
 
 body {
+    min-height: 100vh;
     margin: 0;
+    padding: 0;
     font-family: 'Space Mono', monospace;
     color: var(--white);
     background-image: url('../img/space.jpg');
@@ -42,7 +44,7 @@ body {
 }
 
 main {
-    padding: 1rem;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,6 +59,7 @@ header {
     position: relative;
     background-color: rgba(0, 0, 0, 0.595);
     border-bottom: 2px solid gray;
+    width: 100%;
 }
 
 nav {
@@ -75,7 +78,7 @@ footer {
     font-size: 0.5rem;
     text-align: center;
     padding: 0.8rem;
-    border-top: 4px solid rgb(0, 0, 0);
+    border-top: 2px solid var(--white);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
@@ -84,6 +87,7 @@ footer {
 
 h1 {
     font-size: 1rem;
+    margin: 1rem;
 }
 
 p {
@@ -105,7 +109,6 @@ a {
     flex-direction: column;
     width: 40%;
     background-color: var(--light-blue);
-    border: 1px solid var(--blue);
     position: absolute;
     top: 3rem;
     text-align: center;
@@ -133,44 +136,13 @@ a {
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
+    header {
+        display: flex;
+        justify-content: center;
+    }
+
     nav {
         padding: 0.4rem;
         font-size: 1.2rem;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    footer {
-        color: azure;
-        font-size: 1rem;
-        border-top: 8px solid rgb(0, 0, 0);
-    }
-
-    .socials-icon {
-        width: 2rem;
-        height: 2rem;
-        transition: transform 0.3s ease;
-    }
-
-    .socials-icon:hover {
-        transform: scale(1.2);
-        color: #6060a5;
-    }
-
-    .dropdown-menu-btn {
-        display: none;
-    }
-
-    .link-container {
-        display: flex !important; 
-        flex-direction: row;      
-        position: static;         
-        width: auto;
-        background: transparent;
-    }
-
-    .link-container a {
-        margin-left: 20px;
-    }
-}
+        fle
