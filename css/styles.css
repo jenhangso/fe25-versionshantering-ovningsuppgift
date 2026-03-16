@@ -14,6 +14,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    padding-top: 1.8rem;
     font-family: 'Space Mono', monospace;
     color: var(--white);
     background-image: url('../img/space.jpg');
@@ -31,19 +32,23 @@ main {
 }
 
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 2rem;
     padding: 0.5rem;
-    position: relative;
+    backdrop-filter: blur(10px);
     background-color: rgba(0, 0, 0, 0.595);
     border-bottom: 2px solid gray;
 }
 
 nav {
-    padding: 0.2rem;
     display: flex;
     flex-direction: row;
+    align-self: center;
+    align-items: center;
 }
 
 .page-title {
@@ -113,11 +118,11 @@ a {
     color: #FFFFFF;
     justify-content: center; 
     align-items: center;
-    border-radius: 100px;
     font-size: 2rem;
     border: none;
     width: 2rem;
     height: 2rem;
+    margin: 0;
 }
 
 
@@ -126,7 +131,9 @@ a {
 @media (min-width: 768px) {
     header {
         display: flex;
-        justify-content: center;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 1rem;
     }
 
     nav {
@@ -135,6 +142,7 @@ a {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-self: center;
     }
 
     footer {
