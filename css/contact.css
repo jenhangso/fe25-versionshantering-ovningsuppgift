@@ -33,7 +33,7 @@ textarea {
   resize: none;
 }
 
-button {
+.submit-btn {
   width:18%;
   background-color: #9de8e1;
   color: white;
@@ -42,7 +42,6 @@ button {
   border-radius: 25px;
   font-size: 0.8rem;
   font-weight: bold;
-  cursor: pointer;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -65,6 +64,9 @@ button {
     width: 80%;
     height: 32rem;
     align-self: center;
+    border-radius: 2rem;
+    box-shadow: 0 0 20px rgba(173, 216, 230, 0.3); 
+    border: 1px solid rgba(255, 255, 255, 0.1);
   }
 
   .contact-info {
@@ -79,6 +81,10 @@ button {
   .contact-form {
     background-color: #ffffff83;
     border-radius: 0 2rem 2rem 0;
+  }
+
+  .submit-btn {
+    cursor: pointer;
   }
 
   button:hover {
