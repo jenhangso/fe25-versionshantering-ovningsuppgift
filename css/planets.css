@@ -168,6 +168,7 @@ span {
 
   .planet-btn {
     flex-direction: column;
+    cursor: pointer;
   }
 
   .planets-list {
