@@ -17,8 +17,8 @@ Tillsammans har vi skapat en webbsida inte bara för att ge användaren mer kuns
 * Mark | javascript
 * Jenny | html & css
 
-
-
+## Kommunikation
+Vi använde discord för att hålla kommunikationen med varandra angående projektet.
 
 ## Design
 Emma färdigställde skisser och la upp det i readme. Emma skickade in 4 förslag på färgpalett som vi kunde använda på sidan och en poll skapades i discord för röstning av färgval. Alla paletter var utvalde för att de gav en känsla av rymden utan att vara traditionell i representationen av rymden med endast svart/grå. Font som valdes är monospace från googlefonts eftersom det påminner om stilen som används när vi tänker på rymden och rymdtechnologi.
@@ -57,3 +57,10 @@ Emma färdigställde skisser och la upp det i readme. Emma skickade in 4 försla
 
 ### Font
 [Google Font Monospace](https://fonts.google.com/specimen/Space+Mono)
+
+## Reflektion
+Detta är definitivt något nytt och svårt för oss alla, inte att jobba tillsammans men att programmera tillsammans. Vi har spenderat stora delar av första halvåret av programmet att jobba självständigt utan någon partner än mindre en hel grupp. Att jobba tillsammans krävs bra kommunikation och viljan att göra bra inte bara för sig själv men även för sina gruppmedlemmar. Det har varit upp och ner där vissa känner att de gör mer än andra men även att gruppledaren inte har varit tillräckligt tydlig och informativ som man hade önskat sig. Detta är en ständig inlärningskurva och trots våra upp och ner har vi kunnat komma samman för att skapa en webbsida tillsammans. 
+
+Vi har haft vissa merge konflikter som vi har löst tillsammans och det har varit intressant att samarbeta i github tillsammans. Inga stora problem uppstod som när hela klassen programmerade samtidigt eftersom vi för det mesta arbetade i egna filer efter Alriks rekommendation. 
+
+Det var snabbt och lätt att bestämma oss för vem i gruppen ansvarade för vilka delar och gruppen utförde sina givna uppgifter. Nu i efterhand kan jag se hur man skulle ha lett upp teamet på ett bättre och på ett mer effektivt sätt. Planering är ytterst viktigt och något som man skulle ha planerat mer noga och skrivit ner vartenda uppgift så att det inte känns så överväldigande som det gjorde nu mot slutet. Detta har definitivt varit ett viktigt lärande ögonblick där man inser sina egna brister och saker som man kunde ha gjort bättre från början. Jag är glad att vi gjorde övningsuppgift och fick lära oss den hårda vägen, allt som kan gå fel och hur viktig planeringen är för att använda tiden på bästa sätt. I slutet av dagen är jag glad att vi fick ett bra team som drev fram projektet så gott det gick.
