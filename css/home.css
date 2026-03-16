@@ -1,4 +1,26 @@
-.hero {
+
+#apod-section{
+border: #ffffff 2px solid;
+}
+
+#apod-media iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9; /* behåller proportioner */
+}
+
+#apod-media img {
+  width: 100%;
+}
+
+#welcome{
+    border: #ffffff 2px solid; 
+}
+
+
+
+
+
+/* .hero {
     width: 100%;
     height: 12rem;
     border-bottom: 2px solid var(--light-blue);
@@ -17,7 +39,7 @@
     padding: 1rem;
     font-size: 0.5rem;
     width: 100vh;
-}
+}*/
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
