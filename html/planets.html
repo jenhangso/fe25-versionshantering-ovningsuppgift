@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../css/planets.css">
-    <!-- <script src="../js/main.js" type="module"></script> -->
+    <script src="../js/main.js" type="module"></script>
     <script src="../js/planets.js" type="module"></script>
     <title>Planets</title>
 </head>
@@ -24,47 +24,52 @@
     </header>
 
     <main class="planets-list">
-        <p>Learn more about the 8 planets that makes up our solar system</p>
+        <section class="descrip-container">
+            <p>Learn more about the 8 planets that makes up our solar system</p>
+            <p>Press on a planet that you are curious about!</p>
+        </section>
 
-        <button class="planet-btn" data-planet="mercury">
-            <img class="planet-img" src="../img/planets/mercury.png" alt="Picture of Mercury">
-            <span>Mercury</span>
-        </button>
+        <section class="planet-container">
+            <button class="planet-btn" id="mercury" data-planet="mercury">
+                <img class="planet-img" src="../img/planets/mercury.png" alt="Picture of Mercury">
+                <span>Mercury</span>
+            </button>
 
-        <button class="planet-btn" data-planet="venus">
-            <img class="planet-img" src="../img/planets/venus.png" alt="Picture of Venus">
-            <span>Venus</span>
-        </button>
-        
-        <button class="planet-btn" data-planet="earth">
-            <img class="planet-img" src="../img/planets/earth.png" alt="Picture of Earth">
-            <span>Earth</span>
-        </button>
+            <button class="planet-btn" id="venus" data-planet="venus">
+                <img class="planet-img" src="../img/planets/venus.png" alt="Picture of Venus">
+                <span>Venus</span>
+            </button>
+            
+            <button class="planet-btn" id="earth" data-planet="earth">
+                <img class="planet-img" src="../img/planets/earth.png" alt="Picture of Earth">
+                <span>Earth</span>
+            </button>
 
-        <button class="planet-btn" data-planet="mars">
-            <img class="planet-img" src="../img/planets/mars.png" alt="Picture of Mars">
-            <span>Mars</span>
-        </button>
+            <button class="planet-btn" id="mars" data-planet="mars">
+                <img class="planet-img" src="../img/planets/mars.png" alt="Picture of Mars">
+                <span>Mars</span>
+            </button>
 
-        <button class="planet-btn" data-planet="jupiter">
-            <img class="planet-img" src="../img/planets/jupiter.png" alt="Picture of Venus">
-            <span>Jupiter</span>
-        </button>
+            <button class="planet-btn" id="jupiter" data-planet="jupiter">
+                <img class="planet-img" src="../img/planets/jupiter.png" alt="Picture of Venus">
+                <span>Jupiter</span>
+            </button>
 
-        <button class="planet-btn" data-planet="saturn">
-            <img class="planet-img" src="../img/planets/saturn.png" alt="Picture of Saturn">
-            <span>Saturn</span>
-        </button>
+            <button class="planet-btn" id="saturn" data-planet="saturn">
+                <img class="planet-img" src="../img/planets/saturn.png" alt="Picture of Saturn">
+                <span>Saturn</span>
+            </button>
 
-        <button class="planet-btn" data-planet="uranus">
-            <img class="planet-img" src="../img/planets/uranus.png" alt="Picture of Uranus">
-            <span>Uranus</span>
-        </button>
+            <button class="planet-btn" id="uranus" data-planet="uranus">
+                <img class="planet-img"src="../img/planets/uranus.png" alt="Picture of Uranus">
+                <span>Uranus</span>
+            </button>
 
-        <button class="planet-btn" data-planet="neptune">
-            <img class="planet-img" src="../img/planets/neptune.png" alt="Picture of Neptune">
-            <span>Neptune</span>
-        </button>
+            <button class="planet-btn" id="neptune" data-planet="neptune">
+                <img class="planet-img" src="../img/planets/neptune.png" alt="Picture of Neptune">
+                <span>Neptune</span>
+            </button>
+        </section>
     </main>
 
     <section id="planet-info" class="info-container hidden">

@@ -11,11 +11,17 @@ span {
     font-size: 1rem;
 }
 
+.planet-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 .planets-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
   padding: 2rem 0;
 }
 
@@ -27,13 +33,136 @@ span {
     align-items: center;
     gap: 1rem;
     width: 15rem;
-    border: 2px solid var(--light-blue);
+    border: none;
+    margin: 1rem;
 }
 
-.planet-img {
-    width: 10rem;
+#mercury {
+  width: 5rem;
+  height: 6rem;
+}
+
+#mercury img {
+  width: 2rem;
+  border-radius: 100%;
+}
+
+#venus {
+  width: 7rem;
+  height: 7rem;
+}
+
+#venus img {
+  width: 6rem;
+  border-radius: 100%;
+}
+
+#earth {
+  width: 9rem;
+}
+
+#earth img {
+  width: 8rem;
+}
+
+#mars {
+  width: 5rem;
+}
+
+#mars img {
+  width: 4rem;
+}
+
+#jupiter {
+  width: 14rem;
+}
+
+#jupiter img {
+  width: 13rem;
+}
+
+#saturn {
+  width: 12rem;
+}
+
+#saturn img {
+  width: 11rem;
+}
+
+#uranus {
+  width: 10rem;
+}
+
+#uranus img {
+  width: 9rem;
+}
+
+#neptune {
+  width: 11rem;
+}
+
+#neptune img {
+  width: 10rem;
 }
 
 .info-container {
   position: fixed;
+}
+
+
+/* <--------- BREAKTPOINT 768px ---------> */
+@media (min-width: 768px) {
+  .planet-btn {
+    flex-direction: column;
+  }
+
+  .planets-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .descrip-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 10rem;
+  }
+
+  .planet-container {
+    flex-direction: row;
+  }
+
+  #mercury img {
+    width: 2rem;
+    border-radius: 100%;
+  }
+
+  #venus img {
+    width: 3rem;
+    border-radius: 100%;
+  }
+
+  #earth img {
+    width: 7rem;
+  }
+
+  #mars img {
+    width: 4rem;
+  }
+
+  #jupiter img {
+    width: 11rem;
+  }
+
+  #saturn img {
+    width: 10rem;
+  }
+
+  #uranus img {
+    width: 8rem;
+  }
+
+  #neptune img {
+    width: 9rem;
+  }
 }
