@@ -1,27 +1,6 @@
 /* GENEREL STYLING */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* .space-mono-regular {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-.space-mono-bold {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-.space-mono-regular-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-.space-mono-bold-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: italic;
-} */
-
 :root {
     --white: #FFFFFF;
     --light-blue: #ACE8DE;
@@ -59,7 +38,6 @@ header {
     position: relative;
     background-color: rgba(0, 0, 0, 0.595);
     border-bottom: 2px solid gray;
-    width: 100%;
 }
 
 nav {
@@ -90,6 +68,10 @@ h1 {
     margin: 1rem;
 }
 
+h2 {
+    font-size: 0.8rem;
+}
+
 p {
     font-size: 0.5rem;
 }
@@ -112,10 +94,15 @@ a {
     position: absolute;
     top: 3rem;
     text-align: center;
+    border: 1px solid var(--dark-blue);
 }
 
 .link-container.active {
     display: flex !important;
+}
+
+.link-container a {
+    font-size: 0.8rem;
 }
 
 .dropdown-menu-btn {
@@ -145,4 +132,78 @@ a {
         padding: 0.4rem;
         font-size: 1.2rem;
         display: flex;
-        fle
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    footer {
+        font-size: 1rem;
+        border-top: 4px solid var(--white);
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .socials-icon {
+        width: 2rem;
+        height: 2rem;
+        transition: transform 0.3s ease;
+    }
+
+    .socials-icon:hover {
+        transform: scale(1.2);
+        color: #6060a5;
+    }
+
+    .dropdown-menu-btn {
+        display: none;
+    }
+
+    .link-container {
+        display: flex !important; 
+        flex-direction: row;      
+        position: static;         
+        width: auto;
+        background: transparent;
+    }
+
+    .link-container a {
+        margin: 0 3rem 0 3rem;
+        color: #FFFFFF;
+    }
+
+    .link-container a:hover {
+        color: var(--light-blue);
+        text-decoration: underline;
+    }
+}
+
+/* .space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+} */

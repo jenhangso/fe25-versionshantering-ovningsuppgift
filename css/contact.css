@@ -1,25 +1,6 @@
-/* body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-} */
-
-.contact-container {
-  display: flex;
-  width: 800px;
-  background: white;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
-}
-
 .contact-info {
-  flex: 1;
-  background-color: #9de8e1; 
-  padding: 40px;
+  background-color: var(--dark-blue);
+  padding: 2rem;
   color: white;
   display: flex;
   flex-direction: column;
@@ -27,27 +8,20 @@
 }
 
 .contact-form {
-  flex: 1.2;
-  padding: 40px;
-}
-
-.contact-form h2 {
-  margin-bottom: 25px;
-  color: #333;
+  padding: 1rem;
 }
 
 label {
   display: block;
   margin-bottom: 5px;
-  font-weight: 600;
-  color: #666;
+  color: var(--white);
+  font-size: 0.8rem;
 }
 
-input,
-textarea {
+input, textarea {
   width: 100%;
-  padding: 12px;
-  margin-bottom: 15px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-sizing: border-box;
@@ -55,28 +29,59 @@ textarea {
 }
 
 textarea {
-  height: 100px;
+  height: 5rem;
   resize: none;
 }
 
 button {
-  width: 100%;
-  padding: 12px;
+  width:18%;
   background-color: #9de8e1;
   color: white;
-  border: none;
+  color: var(--dark-blue);
+  border: 1px solid var(--white);
   border-radius: 25px;
-  font-size: 16px;
+  font-size: 0.8rem;
   font-weight: bold;
   cursor: pointer;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-button:hover {
-  opacity: 0.9;
+#social-contact {
+  background-color: var(--white);
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 0.1rem;
+  padding-top: 0.2rem;
+  border-radius: 30px;
 }
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
-  
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 80%;
+    height: 32rem;
+    align-self: center;
+  }
+
+  .contact-info {
+    border-radius: 2rem 0 0 2rem;
+    padding-top: 0.3rem;
+  }
+
+  #social-contact {
+    width: 8rem;
+  }
+
+  .contact-form {
+    background-color: #ffffff83;
+    border-radius: 0 2rem 2rem 0;
+  }
+
+  button:hover {
+  opacity: 0.9;
+  }
 }
