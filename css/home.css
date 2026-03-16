@@ -1,6 +1,5 @@
 .hero {
     width: 100%;
-<<<<<<< Updated upstream
     height: 12rem;
     border-bottom: 2px solid var(--light-blue);
     margin: 0;
@@ -17,7 +16,6 @@
 .facts-container {
     padding: 1rem;
     font-size: 0.5rem;
-<<<<<<< Updated upstream
     width: 100vh;
 }
 
@@ -31,15 +29,4 @@
         border: 2px solid var(--light-blue);
         margin: 2rem;
     }
-=======
-    height: 30rem;
-    background-color: blanchedalmond;
 }
-
-.hero-title {
-    
->>>>>>> Stashed changes
-}
-=======
-    width: 1
->>>>>>> Stashed changes
