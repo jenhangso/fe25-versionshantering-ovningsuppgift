@@ -6,6 +6,7 @@ const closeBtn = document.querySelector('.close-btn');
 
 closeBtn.addEventListener('click', () => {
     infoBox.classList.remove('active');
+    infoBox.classList.add('hidden');
 });
 
 allPlanetBtn.forEach(btn => {
@@ -19,11 +20,13 @@ allPlanetBtn.forEach(btn => {
                     h2.textContent = planet.name;
                     const p = infoBox.querySelector('p');
                     p.textContent = `Mass: ${planet.mass} Jupiters\nRadius: ${planet.radius} Jupiters\nPeriod: ${planet.period} days\nTemperature: ${planet.temperature} K\nDistance: ${planet.distance_light_year} light years`;
+                    infoBox.classList.remove('hidden');
                     infoBox.classList.add('active');
                 }
             }).catch(error => {
                 console.error('Error fetching planet details:', error);
                 infoBox.classList.remove('active');
+                infoBox.classList.add('hidden');
             });
         } catch (error) {
             console.error('Error fetching planet details:', error);
