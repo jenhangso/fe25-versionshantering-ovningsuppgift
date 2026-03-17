@@ -47,10 +47,9 @@ textarea {
 
 #social-contact {
   background-color: var(--white);
-  width: 5rem;
+  width: 6rem;
   display: flex;
   justify-content: center;
-  justify-content: space-around;
   padding: 0.1rem;
   padding-top: 0.2rem;
   border-radius: 30px;
@@ -75,7 +74,7 @@ textarea {
   }
 
   #social-contact {
-    width: 8rem;
+    width: 9rem;
   }
 
   .contact-form {
