@@ -48,7 +48,7 @@ export const displaySpaceNews = async () => {
         <h2>${article.title}</h2>
         ${article.imageUrl ? `<img src="${article.imageUrl}" alt="${article.title}" style="max-width:100%;">` : ""}
         <p>${article.summary}</p>
-        <a href="${article.url}" target="_blank">Read more</a>
+        <a href="${article.url}" target="_blank" class="read-more">Read more</a>
         `;
       container.appendChild(articleEl);
     });
