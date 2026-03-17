@@ -192,6 +192,7 @@ a:hover {
         position: static;         
         width: auto;
         background: transparent;
+        border: none;
     }
 
     .link-container a {
