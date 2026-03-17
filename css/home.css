@@ -16,7 +16,7 @@ main {
 #apod-text {
   border: #ffffff 2px solid;
   border-radius: 5px;
-
+  background-color: var(--dark-blue);
   max-width: 90%;
   margin-top: 2rem;
   padding: 1rem;
@@ -43,7 +43,7 @@ main {
 
 .news-article {
   border: var(--light-blue) 2px solid;
-  background-color: var(--dark-green);
+  background-color: var(--dark-blue);
   padding: 10px;
   border-radius: 8px;
   max-width: 40%;
