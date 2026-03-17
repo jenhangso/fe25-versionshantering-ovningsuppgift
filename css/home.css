@@ -7,6 +7,10 @@ main {
   
 }
 
+#apod-section{
+    max-width: -webkit-fill-available;
+}
+
 .apod-content{
     display: flex;
     align-items: center;
@@ -47,7 +51,6 @@ main {
   background-color: var(--dark-blue);
   padding: 10px;
   border-radius: 8px;
-  max-width: 40%;
 }
 
 .news-article img {
@@ -57,12 +60,18 @@ main {
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
-  .hero {
-    width: 100%;
-    height: 30rem;
-    background-color: #061733bb;
-    border-radius: 20px;
-    border: 2px solid var(--light-blue);
-    margin: 2rem;
-  }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+   
+    #apod-text{
+  max-width: 90%;
+  margin-top: 2rem;
+  padding: 1rem;
+    }
+
+    .news-article {
+    max-width: 40% ;
+}
 }
