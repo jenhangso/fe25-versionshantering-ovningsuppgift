@@ -160,6 +160,7 @@ footer {
     align-items: center;
 }
 
+<<<<<<< Updated upstream
 footer a {
     color: white;
 }
@@ -170,6 +171,9 @@ footer a {
 }
 
 #sound-toggle {
+=======
+#theme-toggle {
+>>>>>>> Stashed changes
     cursor: pointer;
     background: none;
     border: none;
@@ -179,7 +183,10 @@ footer a {
     align-items: center;
     justify-content: center;
 }
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
