@@ -9,6 +9,7 @@
     --blue: #2D5D85;
     --dark-green: #061309;
     --text-color: #1c2541; 
+    --main-bg-image: url('../img/space.jpg');
 }
 
 body {
