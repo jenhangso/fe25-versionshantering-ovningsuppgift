@@ -26,6 +26,16 @@ body {
      font-family: 'Space Mono', monospace;
     color: var(--text-color);
 }
+body.dark-mode {
+      --main-bg-image: url('../img/space.jpg'); /* Din mörka rymdbild */
+    --nav-bg: #0B0D17;         /* Mörkblå/svart från bilden */
+    --text-color: #FFFFFF;     /* Vit text */
+    --header-border: #333;
+    --main-overlay: rgba(0, 0, 0, 0.6);
+    --link-hover: #ACE8DE;
+    background-color: #0B0D17;
+    --footer-bg: #0B0D17;
+}
 
 main {
     flex: 1;
