@@ -4,9 +4,13 @@ const menuBtn = document.querySelector("#mobile-menu");
 const navList = document.querySelector("#nav-links");
 const themeToggle = document.querySelector('#theme-toggle');
 
-menuBtn.addEventListener("click", () => {
-  navList.classList.toggle("active");
-});
+if (menuBtn && navList) {
+  menuBtn.addEventListener("click", () => {
+    navList.classList.toggle("active");
+    console.log("Menu toggled! Current classes:", navList.className);
+  });
+}
+
 displayAPOD();
 displaySpaceNews();
 const audio = new Audio('/audio/space.wav');
@@ -44,12 +48,6 @@ if (themeToggle) {
         const isDark = document.body.classList.toggle('dark-mode');
         localStorage.setItem('theme', isDark ? 'dark' : 'light');
         themeToggle.textContent = isDark ? '☀️' : '🌙';
-    });
-}
-
-if (menuBtn && navList) {
-    menuBtn.addEventListener('click', () => {
-        navList.classList.toggle('active');
     });
 }
 
