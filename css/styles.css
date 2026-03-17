@@ -1,31 +1,26 @@
-/* GENEREL STYLING */
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
+    /* Dina originalfärger */
     --white: #FFFFFF;
     --light-blue: #ACE8DE;
     --green: #1B451D;
     --dark-blue: #061733;
     --blue: #2D5D85;
     --dark-green: #061309;
-    --text-color: #1c2541; 
-    --main-bg-image: url('../img/space.jpg');
+    --footer-bg: #1a3a4a;
+
+
+    /* TEMA-VARIABLER (Standard: Light Mode) */
+    --main-bg-image: url('../img/space.jpg'); /* Byt till en ljusare bild om du har en */
+    --nav-bg: #F5F1E6;         /* Ljusbeige från bilden */
+    --text-color: #1c2541;     /* Mörk text för läsbarhet */
+    --header-border: #D1C9B7;
+   --main-overlay: rgba(255, 255, 255, 0.7);
+    --link-hover: #6060a5;
 }
 
-body {
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    padding-top: 1.8rem;
-    font-family: 'Space Mono', monospace;
-    color: var(--white);
-    background-image: url('../img/space.jpg');
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-     font-family: 'Space Mono', monospace;
-    color: var(--text-color);
-}
+/* DARK MODE OVERRIDE */
 body.dark-mode {
       --main-bg-image: url('../img/space.jpg'); /* Din mörka rymdbild */
     --nav-bg: #0B0D17;         /* Mörkblå/svart från bilden */
@@ -37,121 +32,134 @@ body.dark-mode {
     --footer-bg: #0B0D17;
 }
 
+/* =========================
+   BASE ELEMENTS
+   ========================= */
+body {
+    margin: 0;
+    font-family: 'Space Mono', monospace;
+    color: var(--text-color);
+    background-image: var(--main-bg-image);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
 main {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.595);
-    margin-top: 1.6rem;
+    background-color: var(--main-overlay);
+    transition: background-color 0.3s ease;
 }
 
+/* =========================
+   HEADER & NAVIGATION
+   ========================= */
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    height: 2rem;
-    padding: 0.5rem;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    background-color: rgba(0, 0, 0, 0.595);
-    border-bottom: 2px solid gray;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-}
-
-.mode-box {
-    display: flex;
     align-items: center;
-    gap: 10px;
+    padding: 0.8rem 1.5rem;
+    position: relative;
+    background-color: var(--nav-bg);
+    border-bottom: 2px solid var(--header-border);
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
 }
 
 nav {
     display: flex;
     flex-direction: row;
-    align-self: center;
     align-items: center;
+    gap: 15px;
 }
 
 .page-title {
-    font-size: 1rem;
-}
-
-footer {
-    background-color: var(--blue);
-    color: azure;
-    font-size: 0.5rem;
-    text-align: center;
-    padding: 0.8rem;
-    border-top: 2px solid var(--white);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-}
-
-h1 {
-    font-size: 1rem;
-    margin: 1rem;
-}
-
-h2 {
-    font-size: 0.8rem;
-}
-
-
-p {
-    font-size: 0.5rem;
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 700;
 }
 
 a {
     text-decoration: none;
-    color: var(--light-blue);
+    color: var(--text-color);
+    transition: color 0.2s ease, background-color 0.3s ease, transform 0.2s ease; /* Övergångar */
+    padding: 10px; /* Ge utrymme */
+    border-radius: 5px; /* Rundade hörn */
 }
 
 a:hover {
-    text-decoration: none;
-    color: var(--white);
-    transform: scale(1.2);
+    color: var(--link-hover);
+    background-color: rgba(255, 255, 255, 0.2); /* Bakgrund vid hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Skugga */
+    transform: scale(1.05); /* Liten förstoring */
 }
 
+/* Theme Toggle Button */
+#theme-toggle {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.socials-icon {
-    width: 1rem;
-    height: 1rem;
+/* Mobile Menu Button */
+.dropdown-menu-btn {
+    cursor: pointer;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1rem;
+    border: none;
+    width: 2rem;
+    height: 2rem;
 }
 
 .link-container {
     display: none;
     flex-direction: column;
-    width: 40%;
-    background-color: var(--light-blue);
+    width: 200px;
+    background-color: var(--nav-bg);
+    border: 1px solid var(--header-border);
     position: absolute;
-    top: 3rem;
-    text-align: center;
-    border: 1px solid var(--dark-blue);
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    padding: 10px;
 }
 
 .link-container.active {
     display: flex !important;
 }
 
-.link-container a {
-    font-size: 0.8rem;
-    color: #061309;
-}
-
-.dropdown-menu-btn {
-    display: flex;
-    background: none;
-    color: #FFFFFF;
-    justify-content: center; 
+/* =========================
+   FOOTER
+   ========================= */
+footer {
+    background-color: var(--footer-bg);
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+    padding: 1rem;
+    border-top: 4px solid #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     align-items: center;
 }
 
-<<<<<<< Updated upstream
 footer a {
     color: white;
 }
@@ -162,9 +170,6 @@ footer a {
 }
 
 #sound-toggle {
-=======
-#theme-toggle {
->>>>>>> Stashed changes
     cursor: pointer;
     background: none;
     border: none;
@@ -174,57 +179,9 @@ footer a {
     align-items: center;
     justify-content: center;
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
-    header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        height: 2rem;
-    }
-
-    nav {
-        padding: 0.4rem;
-        font-size: 1.2rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-self: center;
-    }
-
-    footer {
-        font-size: 1rem;
-        border-top: 4px solid var(--white);
-    }
-
-    h1 {
-        font-size: 2.5rem;
-    }
-
-    h2 {
-        font-size: 1rem;
-    }
-
-    p {
-        font-size: 0.8rem;
-    }
-
-    .socials-icon {
-        width: 2rem;
-        height: 2rem;
-        transition: transform 0.3s ease;
-    }
-
-    .socials-icon:hover {
-        transform: scale(1.2);
-        color: #6060a5;
-    }
-
     .dropdown-menu-btn {
         display: none;
     }
@@ -236,36 +193,24 @@ footer a {
         width: auto;
         background: transparent;
         border: none;
+        gap: 25px;
     }
 
-    .link-container a {
-        margin: 0 3rem 0 3rem;
-        color: #FFFFFF;
+    .page-title {
+        font-size: 1.5rem;
     }
 
-    .link-container a:hover {
-        color: var(--light-blue);
-        text-decoration: underline;
+    footer {
+        font-size: 1rem;
+    }
+
+    .socials-icon {
+        width: 2rem;
+        height: 2rem;
+        transition: transform 0.3s ease;
+    }
+
+    .socials-icon:hover {
+        transform: scale(1.2);
     }
 }
-
-/* .space-mono-regular {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-.space-mono-bold {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-.space-mono-regular-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-.space-mono-bold-italic {
-  font-family: "Space Mono", monospace;
-  font-weight: 700;
-  font-style: italic;
-} */
