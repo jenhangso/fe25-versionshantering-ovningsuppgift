@@ -149,14 +149,22 @@ a:hover {
     color: #FFFFFF;
     justify-content: center; 
     align-items: center;
-    font-size: 2rem;
-    border: none;
-    width: 2rem;
-    height: 2rem;
-    margin: 0;
 }
 
+<<<<<<< Updated upstream
+footer a {
+    color: white;
+}
+
+.socials-icon {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+#sound-toggle {
+=======
 #theme-toggle {
+>>>>>>> Stashed changes
     cursor: pointer;
     background: none;
     border: none;
@@ -166,6 +174,10 @@ a:hover {
     align-items: center;
     justify-content: center;
 }
+<<<<<<< Updated upstream
+
+=======
+>>>>>>> Stashed changes
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {
