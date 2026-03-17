@@ -3,7 +3,8 @@ main {
 }
 
 #apod-media {
-  width: 100%;
+  width: max-content;
+  
 }
 
 .apod-content{
