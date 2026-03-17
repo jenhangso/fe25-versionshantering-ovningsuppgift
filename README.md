@@ -65,3 +65,8 @@ Detta är definitivt något nytt och svårt för oss alla, inte att jobba tillsa
 Vi har haft vissa merge konflikter som vi har löst tillsammans och det har varit intressant att samarbeta i github tillsammans. Inga stora problem uppstod som när hela klassen programmerade samtidigt eftersom vi för det mesta arbetade i egna filer efter Alriks rekommendation. 
 
 Det var snabbt och lätt att bestämma oss för vem i gruppen ansvarade för vilka delar och gruppen utförde sina givna uppgifter. Nu i efterhand kan jag se hur man skulle ha lett upp teamet på ett bättre och på ett mer effektivt sätt. Planering är ytterst viktigt och något som man skulle ha planerat mer noga och skrivit ner vartenda uppgift så att det inte känns så överväldigande som det gjorde nu mot slutet. Detta har definitivt varit ett viktigt lärande ögonblick där man inser sina egna brister och saker som man kunde ha gjort bättre från början. Jag är glad att vi gjorde övningsuppgift och fick lära oss den hårda vägen, allt som kan gå fel och hur viktig planeringen är för att använda tiden på bästa sätt. I slutet av dagen är jag glad att vi fick ett bra team som drev fram projektet så gott det gick.
+### ICON menu
+<a href="https://www.flaticon.com/free-icons/space" title="space icons">Space icons created by Freepik - Flaticon</a>
+
+
+---
