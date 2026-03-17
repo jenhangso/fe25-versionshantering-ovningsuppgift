@@ -10,23 +10,21 @@
 
 li {
   list-style: none;
+  font-size: 0.5rem;
 }
 
 .member-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin: 0.5rem;
 }
 
 .member-list {
-  margin: 2rem;
   display: flex;
   flex-direction: column;
-  border: 1px solid var(--light-blue);
-  border-radius: 2rem;
-  padding: 0.5rem;
-  width: 10rem;
   background-color: var(--dark-blue);
+  width: 5rem;
 }
 
 /* <--------- BREAKTPOINT 768px ---------> */
@@ -35,5 +33,18 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+}
+
+.member-container {
+  flex-direction: row;
+}
+
+.member-list {
+  width: 10rem;
+  margin: 2rem;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid var(--light-blue);
+
 }
 }
