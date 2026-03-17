@@ -1,74 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="../css/styles.css"/>
-  <link rel="stylesheet" href="../css/contact.css"/>
-  <script src="../js/main.js" type="module"></script>
-  <title>Contact</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <button class="dropdown-menu-btn" id="mobile-menu" >☰</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <script src="../js/main.js" type="module"></script>
+    <title>Contact</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <button class="dropdown-menu-btn" id="mobile-menu">☰</button>
 
-      <div class="link-container" id="nav-links">
-        <a href="../index.html">Home</a>
-        <a href="./planets.html">Planets</a>
-        <a href="./about.html">About</a>
-        <a href="./contact.html">Contact</a>
+        <div class="link-container" id="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="./planets.html">Planets</a>
+          <a href="./about.html">About</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contact-container">
+        <article class="contact-info">
+          <h2>Wanna know more about space? Or us? Get in contact!</h2>
+          <p>Whether you have a question or want to collaborate</p>
+          <p>Feel free to send us a message using the form</p>
+
+          <div class="socialsBox" id="social-contact">
+            <a href="www.facebook.com"
+              ><img
+                class="socials-icon"
+                src="../img/facebook.png"
+                alt="Facebook Icon"
+            /></a>
+            <a href="instagram.com"
+              ><img
+                class="socials-icon"
+                src="../img/instagram.png"
+                alt="Instagram Icon"
+            /></a>
+            <a href="github.com"
+              ><img
+                class="socials-icon"
+                src="../img/github.png"
+                alt="Facebook Icon"
+            /></a>
+          </div>
+        </article>
+
+        <article class="contact-form">
+          <h2>Contact</h2>
+          <form>
+            <label>Name</label>
+            <input type="text" placeholder="Your Name" required />
+
+            <label>Email</label>
+            <input type="email" placeholder="Your email" required />
+
+            <label>Message</label>
+            <textarea placeholder="Your message"></textarea>
+
+            <button class="submit-btn" type="submit">Send</button>
+          </form>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <div class="socialsBox">
+        <p>Social Media</p>
+        <a href="www.facebook.com"
+          ><img
+            class="socials-icon"
+            src="../img/facebook.png"
+            alt="Facebook Icon"
+        /></a>
+        <a href="instagram.com"
+          ><img
+            class="socials-icon"
+            src="../img/instagram.png"
+            alt="Instagram Icon"
+        /></a>
+        <a href="github.com"
+          ><img
+            class="socials-icon"
+            src="../img/github.png"
+            alt="Facebook Icon"
+        /></a>
       </div>
-    </nav>
-  </header>
-  
-  <main>
-    <section class="contact-container">
-      <article class="contact-info">
-        <h2>Wanna know more about space? Or us? Get in contact!</h2>
-        <p>Whether you have a question or want to collaborate</p>
-        <p>Feel free to send us a message using the form</p>
-        
-        <div class="socialsBox" id="social-contact">
-          <a href="www.facebook.com"><img class="socials-icon" src="../img/facebook.png" alt="Facebook Icon"></a>
-          <a href="instagram.com"><img class="socials-icon" src="../img/instagram.png" alt="Instagram Icon"></a>
-          <a href="github.com"><img class="socials-icon" src="../img/github.png" alt="Facebook Icon"></a>
-        </div>
-      </article>
 
-      <article class="contact-form">
-        <h2>Contact</h2>
-        <form>
-          <label>Name</label>
-          <input type="text" placeholder="Your Name" required/>
-          
-          <label>Email</label>
-          <input type="email" placeholder="Your email" required/>
-          
-          <label>Message</label>
-          <textarea placeholder="Your message"></textarea>
-          
-          <button class="submit-btn" type="submit">Send</button>
-        </form>
-      </article>
-    </section>
-  </main>
+      <p>&copy; 2026, credits Gitronauts</p>
 
-  <footer>
-        <div class="socialsBox">
-            <p>Social Media</p>
-            <a href="www.facebook.com"><img class="socials-icon" src="../img/facebook.png" alt="Facebook Icon"></a>
-            <a href="instagram.com"><img class="socials-icon" src="../img/instagram.png" alt="Instagram Icon"></a>
-            <a href="github.com"><img class="socials-icon" src="../img/github.png" alt="Facebook Icon"></a>
-        </div>
-        
-        <p>&copy; 2026, credits Gitronauts</p>
-
-        <div>
-            <p>API Source</p>
-            <a href="https://api.nasa.gov">Nasa APIS</a>
-            <a href="https://api-ninjas.com">API Ninjas</a>
-        </div>
+      <div>
+        <p>API Source</p>
+        <a href="https://api.nasa.gov">Nasa APIS</a> <br />
+        <a href="https://api-ninjas.com">API Ninjas</a> <br />
+        <a href="https://api.spaceflightnewsapi.net/v4/docs/"
+          >Spaceflight News</a
+        >
+      </div>
     </footer>
-</body>
+  </body>
 </html>

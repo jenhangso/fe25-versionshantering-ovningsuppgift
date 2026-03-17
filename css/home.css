@@ -2,21 +2,25 @@ main {
   align-items: center;
 }
 
-#apod-section {
+#apod-media {
+  width: 100%;
+}
+
+.apod-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+#apod-text {
   border: #ffffff 2px solid;
   border-radius: 5px;
 
   max-width: 90%;
   margin-top: 2rem;
   padding: 1rem;
-}
-
-#apod-media iframe {
-  width: 100%;
-}
-
-#apod-media img {
-  width: 100%;
+  align-self: center;
 }
 
 #space-news {
@@ -33,11 +37,13 @@ main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
 .news-article {
-  border: 1px solid #ddd;
+  border: var(--light-blue) 2px solid;
+  background-color: var(--dark-green);
   padding: 10px;
   border-radius: 8px;
   max-width: 40%;
@@ -46,6 +52,7 @@ main {
 .news-article img {
   border-radius: 5px;
 }
+
 
 /* <--------- BREAKTPOINT 768px ---------> */
 @media (min-width: 768px) {

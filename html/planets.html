@@ -1,103 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/planets.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/planets.css" />
     <script src="../js/main.js" type="module"></script>
     <script src="../js/planets.js" type="module"></script>
     <title>Planets</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <button class="dropdown-menu-btn" id="mobile-menu" >☰</button>
+      <nav>
+        <button class="dropdown-menu-btn" id="mobile-menu">☰</button>
 
-            <div class="link-container" id="nav-links">
-                <a href="../index.html">Home</a>
-                <a href="./planets.html">Planets</a>
-                <a href="./about.html">About</a>
-                <a href="./contact.html">Contact</a>
-            </div>
-        </nav>
+        <div class="link-container" id="nav-links">
+          <a href="../index.html">Home</a>
+          <a href="./planets.html">Planets</a>
+          <a href="./about.html">About</a>
+          <a href="./contact.html">Contact</a>
+        </div>
+      </nav>
     </header>
 
     <main class="planets-list">
-        <section class="descrip-container">
-            <p>Learn more about the 8 planets that makes up our solar system</p>
-            <p>Press on a planet that you are curious about!</p>
-        </section>
+      <section class="descrip-container">
+        <p>Learn more about the 8 planets that makes up our solar system</p>
+        <p>Press on a planet that you are curious about!</p>
+      </section>
 
-        <section class="planet-container">
-            <button class="planet-btn" id="mercury" data-planet="mercury">
-                <img class="planet-img" src="../img/planets/mercury.png" alt="Picture of Mercury">
-                <span>Mercury</span>
-            </button>
+      <section class="planet-container">
+        <button class="planet-btn" id="mercury" data-planet="mercury">
+          <img
+            class="planet-img"
+            src="../img/planets/mercury.png"
+            alt="Picture of Mercury"
+          />
+          <span>Mercury</span>
+        </button>
 
-            <button class="planet-btn" id="venus" data-planet="venus">
-                <img class="planet-img" src="../img/planets/venus.png" alt="Picture of Venus">
-                <span>Venus</span>
-            </button>
-            
-            <button class="planet-btn" id="earth" data-planet="earth">
-                <img class="planet-img" src="../img/planets/earth.png" alt="Picture of Earth">
-                <span>Earth</span>
-            </button>
+        <button class="planet-btn" id="venus" data-planet="venus">
+          <img
+            class="planet-img"
+            src="../img/planets/venus.png"
+            alt="Picture of Venus"
+          />
+          <span>Venus</span>
+        </button>
 
-            <button class="planet-btn" id="mars" data-planet="mars">
-                <img class="planet-img" src="../img/planets/mars.png" alt="Picture of Mars">
-                <span>Mars</span>
-            </button>
+        <button class="planet-btn" id="earth" data-planet="earth">
+          <img
+            class="planet-img"
+            src="../img/planets/earth.png"
+            alt="Picture of Earth"
+          />
+          <span>Earth</span>
+        </button>
 
-            <button class="planet-btn" id="jupiter" data-planet="jupiter">
-                <img class="planet-img" src="../img/planets/jupiter.png" alt="Picture of Venus">
-                <span>Jupiter</span>
-            </button>
+        <button class="planet-btn" id="mars" data-planet="mars">
+          <img
+            class="planet-img"
+            src="../img/planets/mars.png"
+            alt="Picture of Mars"
+          />
+          <span>Mars</span>
+        </button>
 
-            <button class="planet-btn" id="saturn" data-planet="saturn">
-                <img class="planet-img" src="../img/planets/saturn.png" alt="Picture of Saturn">
-                <span>Saturn</span>
-            </button>
+        <button class="planet-btn" id="jupiter" data-planet="jupiter">
+          <img
+            class="planet-img"
+            src="../img/planets/jupiter.png"
+            alt="Picture of Venus"
+          />
+          <span>Jupiter</span>
+        </button>
 
-            <button class="planet-btn" id="uranus" data-planet="uranus">
-                <img class="planet-img"src="../img/planets/uranus.png" alt="Picture of Uranus">
-                <span>Uranus</span>
-            </button>
+        <button class="planet-btn" id="saturn" data-planet="saturn">
+          <img
+            class="planet-img"
+            src="../img/planets/saturn.png"
+            alt="Picture of Saturn"
+          />
+          <span>Saturn</span>
+        </button>
 
-            <button class="planet-btn" id="neptune" data-planet="neptune">
-                <img class="planet-img" src="../img/planets/neptune.png" alt="Picture of Neptune">
-                <span>Neptune</span>
-            </button>
-        </section>
+        <button class="planet-btn" id="uranus" data-planet="uranus">
+          <img
+            class="planet-img"
+            src="../img/planets/uranus.png"
+            alt="Picture of Uranus"
+          />
+          <span>Uranus</span>
+        </button>
+
+        <button class="planet-btn" id="neptune" data-planet="neptune">
+          <img
+            class="planet-img"
+            src="../img/planets/neptune.png"
+            alt="Picture of Neptune"
+          />
+          <span>Neptune</span>
+        </button>
+      </section>
     </main>
 
     <section id="planet-info" class="info-container hidden">
-        <button class="close-btn">&times;</button>
-        <article class="info-box">
-            <div class="content">
-                <h2>Planet Name</h2>
-                <p>Planet Description</p>
-            </div>
-        </article>
+      <button class="close-btn">&times;</button>
+      <article class="info-box">
+        <div class="content">
+          <h2>Planet Name</h2>
+          <p>Planet Description</p>
+        </div>
+      </article>
     </section>
 
     <footer>
-        <div class="socialsBox">
-            <p>Social Media</p>
-            <a href="www.facebook.com"><img class="socials-icon" src="./img/facebook.png" alt="Facebook Icon"></a>
-            <a href="instagram.com"><img class="socials-icon" src="./img/instagram.png" alt="Instagram Icon"></a>
-            <a href="github.com"><img class="socials-icon" src="./img/github.png" alt="Facebook Icon"></a>
-            <a href="./html/contact.html">Contact Us</a>
-        </div>
-        
-        <p>&copy; copyrights 2026, credits Gitronauts</p>
+      <div class="socialsBox">
+        <p>Social Media</p>
+        <a href="www.facebook.com"
+          ><img
+            class="socials-icon"
+            src="./img/facebook.png"
+            alt="Facebook Icon"
+        /></a>
+        <a href="instagram.com"
+          ><img
+            class="socials-icon"
+            src="./img/instagram.png"
+            alt="Instagram Icon"
+        /></a>
+        <a href="github.com"
+          ><img class="socials-icon" src="./img/github.png" alt="Facebook Icon"
+        /></a>
+        <a href="./html/contact.html">Contact Us</a>
+      </div>
 
-        <div>
-            <p>API Source</p>
-            <a href="https://api.nasa.gov">Nasa APIS</a>
-            <a href="https://api-ninjas.com">API Ninjas</a>
-        </div>
+      <p>&copy; copyrights 2026, credits Gitronauts</p>
+
+      <div>
+        <p>API Source</p>
+        <a href="https://api.nasa.gov">Nasa APIS</a> <br />
+        <a href="https://api-ninjas.com">API Ninjas</a> <br />
+        <a href="https://api.spaceflightnewsapi.net/v4/docs/"
+          >Spaceflight News</a
+        >
+      </div>
     </footer>
-</body>
+  </body>
 </html>

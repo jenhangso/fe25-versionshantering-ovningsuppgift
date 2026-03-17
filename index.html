@@ -1,59 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/home.css" />
     <script src="./js/main.js" type="module"></script>
     <title>COSMIC FEED</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <button class="dropdown-menu-btn" id="mobile-menu" >☰</button>
+      <nav>
+        <button class="dropdown-menu-btn" id="mobile-menu">☰</button>
 
-            <div class="link-container" id="nav-links">
-                <a href="index.html">Home</a>
-                <a href="./html/planets.html">Planets</a>
-                <a href="./html/about.html">About</a>
-                <a href="./html/contact.html">Contact</a>
-            </div>
-        </nav>
+        <div class="link-container" id="nav-links">
+          <a href="index.html">Home</a>
+          <a href="./html/planets.html">Planets</a>
+          <a href="./html/about.html">About</a>
+          <a href="./html/contact.html">Contact</a>
+        </div>
+      </nav>
     </header>
-    
-    <main>
-         <section id="apod-section">
-                <h1>Picture of the Day</h1>
-                <div class="apod-content">
-                    <div id="apod-media"></div>
-                    <h2 id="apod-title"></h2>
-                    <p id="apod-description"></p>
-                </div>
-        </section>
 
-<section id="space-news">
-  <h1>Latest Space News</h1>
-  <div id="news-container"></div>
-</section>
-        
+    <main>
+      <section id="apod-section">
+        <div class="apod-content">
+          <div id="apod-media"></div>
+          <div id="apod-text">
+            <h1>Picture of the Day</h1>
+            <h2 id="apod-title"></h2>
+            <p id="apod-description"></p>
+          </div>
+        </div>
+      </section>
+
+      <section id="space-news">
+        <h1>Latest Space News</h1>
+        <div id="news-container"></div>
+      </section>
     </main>
 
     <footer>
-        <div class="socialsBox">
-            <p>Social Media</p>
-            <a href="www.facebook.com"><img class="socials-icon" src="./img/facebook.png" alt="Facebook Icon"></a>
-            <a href="instagram.com"><img class="socials-icon" src="./img/instagram.png" alt="Instagram Icon"></a>
-            <a href="github.com"><img class="socials-icon" src="./img/github.png" alt="Facebook Icon"></a>
-        </div>
-        
-        <p>&copy; Gitronauts</p>
+      <div class="socialsBox">
+        <p>Social Media</p>
+        <a href="www.facebook.com"
+          ><img
+            class="socials-icon"
+            src="./img/facebook.png"
+            alt="Facebook Icon"
+        /></a>
+        <a href="instagram.com"
+          ><img
+            class="socials-icon"
+            src="./img/instagram.png"
+            alt="Instagram Icon"
+        /></a>
+        <a href="github.com"
+          ><img class="socials-icon" src="./img/github.png" alt="Facebook Icon"
+        /></a>
+      </div>
 
-        <div>
-            <p>API Source</p>
-            <a href="https://api.nasa.gov">Nasa APIS</a>
-            <a href="https://api-ninjas.com">API Ninjas</a>
-        </div>
+      <p>&copy; Gitronauts</p>
+
+      <div>
+        <p>API Source</p>
+        <a href="https://api.nasa.gov">Nasa APIS</a> <br />
+        <a href="https://api-ninjas.com">API Ninjas</a> <br />
+        <a href="https://api.spaceflightnewsapi.net/v4/docs/"
+          >Spaceflight News</a
+        >
+      </div>
     </footer>
-</body>
+  </body>
 </html>
