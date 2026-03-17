@@ -95,8 +95,8 @@ nav {
 
 a {
     text-decoration: none;
-    color: var(--text-color);
-    transition: color 0.2s ease, background-color 0.3s ease, transform 0.2s ease; /* Övergångar */
+    color: var(--light-blue);
+    transition: color 0.2s ease, background-color 0.3s ease, transform 0.2s ease;
     padding: 10px; /* Ge utrymme */
     border-radius: 5px; /* Rundade hörn */
 }
