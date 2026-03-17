@@ -9,7 +9,7 @@ menuBtn.addEventListener("click", () => {
 });
 displayAPOD();
 displaySpaceNews();
-const audio = new Audio('/audio/space.mp3.wav');
+const audio = new Audio('/audio/space.wav');
 audio.loop = true;
 audio.volume = 0.3;
 
