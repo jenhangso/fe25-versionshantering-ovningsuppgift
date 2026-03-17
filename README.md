@@ -11,14 +11,15 @@ Bakom kulisserna sitter Mark och ser till att de interaktiva bitarna fungerar fe
 Tillsammans har vi skapat en webbsida inte bara för att ge användaren mer kunskap om rymden men användaren kan även hålla sig uppdaterade med nyheter om det senaste som händer inom rymden. 
 
 ### Gitronauts
-* Mohsen | html
-* Anwer | html
-* Emma | ux design & css
-* Mark | javascript
-* Jenny | html & css
+* Mohsen | html | github-namn: Mohsen-Heidari-123
+* Anwer | html | github-namn: Anwer148
+* Emma | ux design & css | github-namn: Emmaapersson
+* Mark | javascript | github-namn: Ilo32 / Fr3akyMurk
+* Isabelle | javascript | github-namn: isabelleLj
+* Jenny | html & css | github-namn: jenhangso
 
 ## Kommunikation
-Vi använde discord för att hålla kommunikationen med varandra angående projektet.
+Vi använde discord för att hålla kommunikationen med varandra under projektetets gång.
 
 ## Design
 Emma färdigställde skisser och la upp det i readme. Emma skickade in 4 förslag på färgpalett som vi kunde använda på sidan och en poll skapades i discord för röstning av färgval. Alla paletter var utvalde för att de gav en känsla av rymden utan att vara traditionell i representationen av rymden med endast svart/grå. Font som valdes är monospace från googlefonts eftersom det påminner om stilen som används när vi tänker på rymden och rymdtechnologi.
