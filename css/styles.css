@@ -21,6 +21,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+     font-family: 'Space Mono', monospace;
+    color: var(--text-color);
 }
 
 main {
