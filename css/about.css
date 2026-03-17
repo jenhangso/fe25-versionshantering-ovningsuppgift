@@ -35,16 +35,11 @@ li {
   align-items: center;
 }
 
-.member-container {
-  flex-direction: row;
-}
-
 .member-list {
   width: 10rem;
   margin: 2rem;
   padding: 0.5rem;
   border-radius: 2rem;
   border: 1px solid var(--light-blue);
-
 }
 }
